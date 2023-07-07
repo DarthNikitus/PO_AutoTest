@@ -152,48 +152,48 @@ class StartPage(BasePage):
         pass
 
 
-    def create_area(self):
-        name = 'Площадка3'
-        self.element_is_visible(self.locators.MENU).click()
-        self.element_is_visible(self.locators.SETTINGS_OPERATOR).click()
-        self.element_is_visible(self.locators.ROOT_SETTINGS).click()
-        self.element_is_visible(self.locators.AREA).click()
-        self.element_is_visible(self.locators.BUTTON_RADIO_CERTAIN).click()
-        self.element_is_visible(self.locators.BUTTON_SAVE_AREA).click()
-        # self.element_is_visible(self.locators.INPUT_NAME_AREA).click()
-        # self.element_is_visible(self.locators.INPUT_NAME_AREA).send_keys(name)
+    # def create_area(self):
+    #     name = 'Площадка3'
+    #     self.element_is_visible(self.locators.MENU).click()
+    #     self.element_is_visible(self.locators.SETTINGS_OPERATOR).click()
+    #     self.element_is_visible(self.locators.ROOT_SETTINGS).click()
+    #     self.element_is_visible(self.locators.AREA).click()
+    #     self.element_is_visible(self.locators.BUTTON_RADIO_CERTAIN).click()
+    #     self.element_is_visible(self.locators.BUTTON_SAVE_AREA).click()
+    #     # self.element_is_visible(self.locators.INPUT_NAME_AREA).click()
+    #     # self.element_is_visible(self.locators.INPUT_NAME_AREA).send_keys(name)
 
 
-    def create_passage(self):
-        name_readers = 'Считыватель_тест'
-        name_passage = 'тп_тест'
-        self.element_is_visible(self.locators.MENU).click()
-        self.element_is_visible(self.locators.READERS).click()
-        self.element_is_visible(self.locators.BUTTON_READERS_ADD).click()
-        self.element_is_visible(self.locators.READERS_NAME).click()
-        self.element_is_visible(self.locators.READERS_NAME).send_keys(name_readers)
-        self.element_is_visible(self.locators.BUTTON_SAVE_READERS).click()
-        self.element_is_visible(self.locators.PASSAGE_POINT).click()
-        self.element_is_visible(self.locators.BUTTON_ADD_PASSAGE).click()
-        self.element_is_visible(self.locators.BUTTON_NAME_PASSAGE).click()
-        self.element_is_visible(self.locators.INPUT_NAME_PASSAGE).send_keys(name_passage)
-        self.element_is_visible(self.locators.BUTTON_INPUT_READERS).click()
-        self.element_is_visible(self.locators.INPUT_READERS_NAME).click()
-        self.element_is_visible(self.locators.BUTTON_INPUT_OUTERS).click()
-        self.element_is_visible(self.locators.INPUT_OUTERS_NAME).click()
-        self.element_is_visible(self.locators.BUTTON_SAVE_PASSAGE).click()
+    # def create_passage(self):
+    #     name_readers = 'Считыватель_тест'
+    #     name_passage = 'тп_тест'
+    #     self.element_is_visible(self.locators.MENU).click()
+    #     self.element_is_visible(self.locators.READERS).click()
+    #     self.element_is_visible(self.locators.BUTTON_READERS_ADD).click()
+    #     self.element_is_visible(self.locators.READERS_NAME).click()
+    #     self.element_is_visible(self.locators.READERS_NAME).send_keys(name_readers)
+    #     self.element_is_visible(self.locators.BUTTON_SAVE_READERS).click()
+    #     self.element_is_visible(self.locators.PASSAGE_POINT).click()
+    #     self.element_is_visible(self.locators.BUTTON_ADD_PASSAGE).click()
+    #     self.element_is_visible(self.locators.BUTTON_NAME_PASSAGE).click()
+    #     self.element_is_visible(self.locators.INPUT_NAME_PASSAGE).send_keys(name_passage)
+    #     self.element_is_visible(self.locators.BUTTON_INPUT_READERS).click()
+    #     self.element_is_visible(self.locators.INPUT_READERS_NAME).click()
+    #     self.element_is_visible(self.locators.BUTTON_INPUT_OUTERS).click()
+    #     self.element_is_visible(self.locators.INPUT_OUTERS_NAME).click()
+    #     self.element_is_visible(self.locators.BUTTON_SAVE_PASSAGE).click()
 
 
-    def create_monitor(self):
-        name='Монитор_тест'
-        self.element_is_visible(self.locators.MENU).click()
-        self.element_is_visible(self.locators.MONITOR).click()
-        self.element_is_visible(self.locators.BUTTON_ADD_MONITOR).click()
-        self.element_is_visible(self.locators.BUTTON_NAME_MONITOR).click()
-        self.element_is_visible(self.locators.INPUT_NAME_MONITOR).send_keys(name)
-        self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGES).click()
-        self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGE).click()
-        self.element_is_visible(self.locators.BUTTON_SAVE_PASSAGE).click()
+    # def create_monitor(self):
+    #     name='Монитор_тест'
+    #     self.element_is_visible(self.locators.MENU).click()
+    #     self.element_is_visible(self.locators.MONITOR).click()
+    #     self.element_is_visible(self.locators.BUTTON_ADD_MONITOR).click()
+    #     self.element_is_visible(self.locators.BUTTON_NAME_MONITOR).click()
+    #     self.element_is_visible(self.locators.INPUT_NAME_MONITOR).send_keys(name)
+    #     self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGES).click()
+    #     self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGE).click()
+    #     self.element_is_visible(self.locators.BUTTON_SAVE_PASSAGE).click()
     # def parser_status(txt):
     #     text = txt.split('[', 1)[1].split(']')[0]
     #     return text

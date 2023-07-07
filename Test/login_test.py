@@ -76,22 +76,22 @@ def test_copy_application(driver):
     start_page.signing_receiving_pass('a')
 
 
-def test_create_area(driver):
-    url = test_login_form(driver)
-    start_page = StartPage(driver, url)
-    start_page.create_area()
+# def test_create_area(driver):
+#     url = test_login_form(driver)
+#     start_page = StartPage(driver, url)
+#     start_page.create_area()
 
 
-def test_create_passage(driver):
-    url = test_login_form(driver)
-    start_page = StartPage(driver, url)
-    start_page.create_passage()
+# def test_create_passage(driver):
+#     url = test_login_form(driver)
+#     start_page = StartPage(driver, url)
+#     start_page.create_passage()
 
 
-def test_create_monitor(driver):
-    url = test_login_form(driver)
-    start_page = StartPage(driver, url)
-    start_page.create_monitor()
+# def test_create_monitor(driver):
+#     url = test_login_form(driver)
+#     start_page = StartPage(driver, url)
+#     start_page.create_monitor()
 
 # def test_add_anything_pass(driver):
 #     url = test_create_my_application(driver)

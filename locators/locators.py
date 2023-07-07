@@ -71,37 +71,37 @@ class StartPageLocators:
 
     BUTTON_YES_PO = (By.CSS_SELECTOR, 'div > div > app-show-msg-component > section > mat-dialog-actions > app-btn-dialog:nth-child(1) > button')
 
-    # для площадки
-    SETTINGS_OPERATOR = (By.CSS_SELECTOR, 'a[href="listedData/Settings"]')
-    ROOT_SETTINGS = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div.table-container > table > tbody > tr:nth-child(1)')
-    BUTTON_ADD_AREA = (By.CSS_SELECTOR, '#mat-mdc-dialog-12 > div > div > app-show-obj-component > section > app-common-object-editor > div > app-settings > lib-base-panel > section > div.content.ng-star-inserted > div.content-wrapper > div > app-settings-site > div > app-site-list-control:nth-child(3) > mat-form-field > div.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c110-221.mdc-text-field--filled > div.mat-mdc-form-field-flex.ng-tns-c110-221 > div.mat-mdc-form-field-icon-suffix.ng-tns-c110-221.ng-star-inserted > button.mat-mdc-tooltip-trigger.testAddObjectBtnChipList.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
-    AREA = (By.CSS_SELECTOR, '#mat-mdc-dialog-0 > div > div > app-show-obj-component > section > app-common-object-editor > div > app-settings > lib-base-panel > section > div.cdk-drag.cdk-drag-handle.left-side > app-base-panel-sidebar > mat-selection-list > mat-list-option:nth-child(5)')
-    INPUT_NAME_AREA = (By.XPATH, '[placeholder="Название"]')
-    BUTTON_RADIO_CERTAIN = (By.XPATH, '//*[text()="Определенные"]')
-    BUTTON_SAVE_AREA = (By.XPATH, '//span[contains(text(), "Сохранить")]')
+    # # для площадки
+    # SETTINGS_OPERATOR = (By.CSS_SELECTOR, 'a[href="listedData/Settings"]')
+    # ROOT_SETTINGS = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div.table-container > table > tbody > tr:nth-child(1)')
+    # BUTTON_ADD_AREA = (By.CSS_SELECTOR, '#mat-mdc-dialog-12 > div > div > app-show-obj-component > section > app-common-object-editor > div > app-settings > lib-base-panel > section > div.content.ng-star-inserted > div.content-wrapper > div > app-settings-site > div > app-site-list-control:nth-child(3) > mat-form-field > div.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c110-221.mdc-text-field--filled > div.mat-mdc-form-field-flex.ng-tns-c110-221 > div.mat-mdc-form-field-icon-suffix.ng-tns-c110-221.ng-star-inserted > button.mat-mdc-tooltip-trigger.testAddObjectBtnChipList.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
+    # AREA = (By.CSS_SELECTOR, '#mat-mdc-dialog-0 > div > div > app-show-obj-component > section > app-common-object-editor > div > app-settings > lib-base-panel > section > div.cdk-drag.cdk-drag-handle.left-side > app-base-panel-sidebar > mat-selection-list > mat-list-option:nth-child(5)')
+    # INPUT_NAME_AREA = (By.XPATH, '[placeholder="Название"]')
+    # BUTTON_RADIO_CERTAIN = (By.XPATH, '//*[text()="Определенные"]')
+    # BUTTON_SAVE_AREA = (By.XPATH, '//span[contains(text(), "Сохранить")]')
 
-    # для точки прохода
-    PASSAGE_POINT = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav > div > div > div:nth-child(1) > div.divLtr.ng-star-inserted > table > tr:nth-child(11) > td > mat-nav-list > a:nth-child(8)')
-    BUTTON_ADD_PASSAGE = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
-    BUTTON_NAME_PASSAGE = (By.XPATH, '//*[text()="Название"]')
-    INPUT_NAME_PASSAGE = (By.XPATH, '//input[contains(@class, "mat-mdc-input-element ng-tns")][@aria-required="true"]')
-    BUTTON_INPUT_READERS = (By.XPATH, '//button[contains(@class,"mdc-icon-button mat-mdc-icon-button mat-primary mat-mdc-button-base ng-tns-c110")]')
-    INPUT_READERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
-    BUTTON_INPUT_OUTERS = (By.XPATH, '//button[@class="mdc-icon-button mat-mdc-icon-button mat-primary mat-mdc-button-base ng-tns-c110-26 ng-star-inserted"]')
-    INPUT_OUTERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
-    READERS = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav > div > div > div:nth-child(1) > div.divLtr.ng-star-inserted > table > tr:nth-child(10) > td > mat-nav-list > a:nth-child(4)')
-    BUTTON_READERS_ADD = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button:nth-child(1) > span.mat-mdc-button-touch-target')
-    READERS_NAME = (By.CSS_SELECTOR, '[placeholder="Название"]')
-    BUTTON_SAVE_READERS = (By.XPATH, '//span[contains(text(), "Сохранить")]')
-    BUTTON_SAVE_PASSAGE = (By.XPATH, '//span[contains(text(), "Сохранить")]')
+    # # для точки прохода
+    # PASSAGE_POINT = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav > div > div > div:nth-child(1) > div.divLtr.ng-star-inserted > table > tr:nth-child(11) > td > mat-nav-list > a:nth-child(8)')
+    # BUTTON_ADD_PASSAGE = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
+    # BUTTON_NAME_PASSAGE = (By.XPATH, '//*[text()="Название"]')
+    # INPUT_NAME_PASSAGE = (By.XPATH, '//input[contains(@class, "mat-mdc-input-element ng-tns")][@aria-required="true"]')
+    # BUTTON_INPUT_READERS = (By.XPATH, '//button[contains(@class,"mdc-icon-button mat-mdc-icon-button mat-primary mat-mdc-button-base ng-tns-c110")]')
+    # INPUT_READERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
+    # BUTTON_INPUT_OUTERS = (By.XPATH, '//button[@class="mdc-icon-button mat-mdc-icon-button mat-primary mat-mdc-button-base ng-tns-c110-26 ng-star-inserted"]')
+    # INPUT_OUTERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
+    # READERS = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav > div > div > div:nth-child(1) > div.divLtr.ng-star-inserted > table > tr:nth-child(10) > td > mat-nav-list > a:nth-child(4)')
+    # BUTTON_READERS_ADD = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button:nth-child(1) > span.mat-mdc-button-touch-target')
+    # READERS_NAME = (By.CSS_SELECTOR, '[placeholder="Название"]')
+    # BUTTON_SAVE_READERS = (By.XPATH, '//span[contains(text(), "Сохранить")]')
+    # BUTTON_SAVE_PASSAGE = (By.XPATH, '//span[contains(text(), "Сохранить")]')
 
-    # для монитора присутствия
-    MONITOR = (By.CSS_SELECTOR, 'a[href="listedData/Monitor"]')
-    BUTTON_ADD_MONITOR = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
-    BUTTON_NAME_MONITOR = (By.XPATH, '//*[text()="Название"]')
-    INPUT_NAME_MONITOR = (By.CSS_SELECTOR, '[placeholder="Название"]')
-    BUTTON_CHOOSE_PASSAGES = (By.XPATH, '//*[@id="mat-mdc-dialog-0"]/div/div/app-show-obj-component/section/app-common-object-editor/div/app-pomonitor/lib-base-panel/section/div[2]/div[2]/div/div[2]/app-checkpoint-list-control/mat-form-field/div[1]/div[2]/div[2]/button[1]')
-    BUTTON_CHOOSE_PASSAGE = (By.CSS_SELECTOR, '[role="option"][class="mat-mdc-option mat-mdc-focus-indicator mdc-list-item option-container ng-star-inserted"]')
+    # # для монитора присутствия
+    # MONITOR = (By.CSS_SELECTOR, 'a[href="listedData/Monitor"]')
+    # BUTTON_ADD_MONITOR = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-primary.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target')
+    # BUTTON_NAME_MONITOR = (By.XPATH, '//*[text()="Название"]')
+    # INPUT_NAME_MONITOR = (By.CSS_SELECTOR, '[placeholder="Название"]')
+    # BUTTON_CHOOSE_PASSAGES = (By.XPATH, '//*[@id="mat-mdc-dialog-0"]/div/div/app-show-obj-component/section/app-common-object-editor/div/app-pomonitor/lib-base-panel/section/div[2]/div[2]/div/div[2]/app-checkpoint-list-control/mat-form-field/div[1]/div[2]/div[2]/button[1]')
+    # BUTTON_CHOOSE_PASSAGE = (By.CSS_SELECTOR, '[role="option"][class="mat-mdc-option mat-mdc-focus-indicator mdc-list-item option-container ng-star-inserted"]')
 
 
 
