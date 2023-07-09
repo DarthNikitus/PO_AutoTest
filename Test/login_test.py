@@ -53,8 +53,8 @@ def test_create_my_application(driver):
     start_page.open_incoming()
     """Перевод заявки в согласие и выдача заявки"""
     start_page.agreement_application()
-    txt_1 = start_page.issue_pass()
-    start_page.signing_receiving_pass(txt_1)
+    #txt_1 = start_page.issue_pass()
+    #start_page.signing_receiving_pass(txt_1)
 
     # time.sleep(2)
 
@@ -76,22 +76,22 @@ def test_copy_application(driver):
     start_page.signing_receiving_pass('a')
 
 
-# def test_create_area(driver):
-#     url = test_login_form(driver)
-#     start_page = StartPage(driver, url)
-#     start_page.create_area()
+def test_create_area(driver):
+    url = test_login_form(driver)
+    start_page = StartPage(driver, url)
+    start_page.create_area()
+    start_page.give_permission_area()
+
+def test_create_passage(driver):
+    url = test_login_form(driver)
+    start_page = StartPage(driver, url)
+    start_page.create_passage()
 
 
-# def test_create_passage(driver):
-#     url = test_login_form(driver)
-#     start_page = StartPage(driver, url)
-#     start_page.create_passage()
-
-
-# def test_create_monitor(driver):
-#     url = test_login_form(driver)
-#     start_page = StartPage(driver, url)
-#     start_page.create_monitor()
+def test_create_monitor(driver):
+    url = test_login_form(driver)
+    start_page = StartPage(driver, url)
+    start_page.create_monitor()
 
 # def test_add_anything_pass(driver):
 #     url = test_create_my_application(driver)
