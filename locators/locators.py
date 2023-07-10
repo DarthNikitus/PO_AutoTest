@@ -101,7 +101,7 @@ class StartPageLocators:
     INPUT_NAME_PASSAGE = (By.XPATH, '//input[contains(@class, "mat-mdc-input-element ng-tns")][@aria-required="true"]')
     BUTTON_INPUT_READERS = (By.XPATH, '//button[contains(@class,"mdc-icon-button mat-mdc-icon-button mat-primary mat-mdc-button-base ng-tns-c110")]')
     INPUT_READERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
-    BUTTON_INPUT_OUTERS = (By.XPATH, '/html/body/div[4]/div[2]/div/mat-dialog-container/div/div/app-show-obj-component/section/app-common-object-editor/div/app-pocheckpoint/lib-base-panel/section/div[2]/div[2]/div/app-reader-list-control[2]/mat-form-field/div[1]/div[2]/div[2]/button/span[1]')
+    BUTTON_INPUT_OUTERS = (By.XPATH, '//div/div/app-show-obj-component/section/app-common-object-editor/div/app-pocheckpoint/lib-base-panel/section/div[2]/div[2]/div/app-reader-list-control[2]/mat-form-field/div[1]/div[2]/div[2]/button/span[4]')
     INPUT_OUTERS_NAME = (By.XPATH, '//div[text()=" Считыватель_тест  "]')
     READERS = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav > div > div > div:nth-child(1) > div.divLtr.ng-star-inserted > table > tr:nth-child(10) > td > mat-nav-list > a:nth-child(4)')
     BUTTON_READERS_ADD = (By.CSS_SELECTOR, '#body > app-root > div > app-content > mat-sidenav-container > mat-sidenav-content > div > app-listed-data > app-paged-object-list2 > mat-drawer-container > mat-drawer-content > div > div:nth-child(2) > div > button:nth-child(1) > span.mat-mdc-button-touch-target')
