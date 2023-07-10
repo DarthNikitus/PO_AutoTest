@@ -116,6 +116,6 @@ class StartPageLocators:
     INPUT_NAME_MONITOR = (By.CSS_SELECTOR, '[placeholder="Название"]')
     BUTTON_CHOOSE_PASSAGES = (By.XPATH, '//*[@id="mat-mdc-dialog-0"]/div/div/app-show-obj-component/section/app-common-object-editor/div/app-pomonitor/lib-base-panel/section/div[2]/div[2]/div/div[2]/app-checkpoint-list-control/mat-form-field/div[1]/div[2]/div[2]/button[1]')
     BUTTON_CHOOSE_PASSAGE = (By.CSS_SELECTOR, '[role="option"][class="mat-mdc-option mat-mdc-focus-indicator mdc-list-item option-container ng-star-inserted"]')
-
-
-
+    BUTTON_CHOOSE_MONITOR = (By.XPATH, '//*[@id="body"]/app-root/div/app-content/mat-sidenav-container/mat-sidenav-content/div/app-listed-data/app-paged-object-list2/mat-drawer-container/mat-drawer-content/div/div[4]/table/tbody/tr[1]/td[3]/div[1]/button[2]/span[4]')
+    BUTTON_DELETE_MONITOR = (By.XPATH, '//*[text()=" Удалить "]')
+    BUTTON_CONFIRM_DELETE_MONITOR = (By.XPATH, '//*[text()="ОК "]')

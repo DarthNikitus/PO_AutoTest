@@ -220,6 +220,12 @@ class StartPage(BasePage):
         self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGES).click()
         self.element_is_visible(self.locators.BUTTON_CHOOSE_PASSAGE).click()
         self.element_is_visible(self.locators.BUTTON_SAVE_PASSAGE).click()
+        time.sleep(5)
+        self.element_is_visible(self.locators.BUTTON_CHOOSE_MONITOR).click()
+        time.sleep(5)
+        self.element_is_visible(self.locators.BUTTON_DELETE_MONITOR).click()
+        time.sleep(5)
+        self.element_is_visible(self.locators.BUTTON_CONFIRM_DELETE_MONITOR).click()
     # def parser_status(txt):
     #     text = txt.split('[', 1)[1].split(']')[0]
     #     return text
